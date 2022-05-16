@@ -1,0 +1,66 @@
+/*.yeuthich{float: right; padding: 4%;}
+.giohang{float: right; padding: 4%;} */
+body{
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:13px;
+    }
+    #logo{height: 100px; width: 100px;float: left;}
+    #header{height:100px; width: 1200px;margin: 0px auto;}
+    #mainmenu{
+    width:1200px;
+    overflow:hidden;
+    float: left;
+    }
+    #mainmenu ul{
+    padding:0px;
+    margin:0px;
+    font-size:14px;
+    position:absolute;
+    }
+    #mainmenu li{
+    float:left;
+    width: 200px;
+    list-style:none;
+    padding:5px 0px;
+    text-align:center;
+    background-color:white;
+    cursor:pointer;
+    color:white;
+    /*font-weight:bold;*/
+    
+    overflow:hidden;
+    height:17px;
+    }
+    #mainmenu li:hover{
+    background-color:white;
+    color:white;
+    height:auto;
+    }
+    #submenufirst{
+    border-top-left-radius:10px;
+    }
+    #submenulast{
+    border-top-right-radius:10px;
+    }
+    .submenuitem{
+    margin-bottom:-7px;
+    }
+    #mainmenu li div{
+    padding:2px 0px;
+    }
+    #mainmenu li div div{
+    background-color:white;
+    color:white;
+    text-align:justify;
+    padding-left:5px;
+    }
+    #mainmenu li div div:hover{
+    background-color:blanchedalmond;
+    }
+    #mainmenu a:visited, #mainmenu a:link, #mainmenu a:hover{
+    color:black;
+    text-decoration:none;
+    }
+/* #b1{color: #000; text-align: center; border-top: 3px dashed #000; border-bottom: 3px dashed #000; width: 230px; padding: 1px ; margin-bottom: 1px; display: block;}
+li {color: #000;list-style: none; margin-bottom: 7px; margin-left: 20px; font-size: 15px; color: var(--color); cursor: pointer; box-sizing: border-box; float: left;}
+#b2{float: left; height: 600px; width: 200px; } */

@@ -1,0 +1,136 @@
+*{transition:all 0.3s ease-in-out;}
+
+.container{
+  	clear:both;
+  	overflow:auto;
+ 	height: 150px;
+}
+
+nav{float:left;}
+
+.logo img{float:left;}
+
+ul li{
+  	display: inline-block; padding: 15px; width: 180px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+
+a{
+  	text-decoration: none;
+  	color: #000000;
+}
+
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main nav */
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	float:none;
+	display:list-item;
+	position: relative;
+	height: 1px;
+}
+
+ul {
+	list-style: circle;
+}
+
+nav a:hover { 
+	text-decoration: underline;
+	color: rgb(252, 185, 104);
+}
+
+
+.box{
+    width: 100%;
+    text-align:center;
+	margin-top: 30px;
+}
+
+
+.menucard{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    padding: 0 0px 100px 20px;
+}
+.card{
+    margin-top: 10px;
+    width: 263px;
+    height: 400px;
+    cursor: pointer;
+    text-align: left;
+}
+.card img{
+        width: 100%;
+        height: 65%;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+}
+.card a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black   ;
+    display: block;
+    margin-bottom: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.card p{
+    font-style: normal;
+    color: black    ;
+    font-size: large;
+}
+.gia{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.card button{
+    position: absolute;
+    top: -18px;
+    right: 0;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: wheat;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+.card img:hover{
+    transform: scale(1.1);
+    margin-bottom: 20px;
+}
+.card button:hover{
+    background: #FFEBCD;
+} 
+
+.footer{
+	background-color: rgb(105, 104, 104);
+	height: 40px;
+	width: 100%;
+	color: white;
+    margin-top: 30px;
+}
+
+
+
+.footer{
+	background-color: #f0ecea;
+	width: 100%;
+	color: #000000;
+    height: 250px;
+	line-height: 2px;
+}
+.footer a{color: black;
+}
